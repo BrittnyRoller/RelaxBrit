@@ -1,0 +1,273 @@
+/*
+Project Name: Relaxr blog
+Client: Relaxr
+Author: Brittny Roller
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+     color: #000;
+     font-size: 12px;
+     line-height: 1.4;
+     font-family: 'Open Sans' , Helvetica, Arial, sans-serif;
+     font-weight: 300;
+     background: #f0efef;
+}
+a {
+  text-decoration: none;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+header {
+  
+  background: #033048;
+}
+
+/*header css*/
+
+.header { 
+  width: 960px;
+  margin: auto;
+  background: #033048;
+  padding: 20px;
+  height: 100px;
+
+}
+.toplogo {
+  color: white;
+  float: left;
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.topmenu {
+  margin-top: 10px;
+  float: right;
+}
+
+.topmenu li {
+  display: inline-block;
+  font-size: 24px;
+  margin: 0 0 0 30px;
+}
+
+.topmenu a {
+  color:  #f9e42e;
+}
+
+/*end header css*/
+
+/*main left body css*/
+
+.body {
+  margin-top: 60px;
+  width: 960px;
+  margin: 50px auto auto auto;
+}
+
+.left {
+  float: left;
+  width: 700px;
+  padding-right: 20px;
+}
+
+h2 {
+  font-size: 40px;
+  padding-bottom: 30px;
+}
+
+p {
+  font-size: 24px;
+}
+
+.firstcharacter {
+ 
+  float: left;
+  font-size: 80px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+
+}
+
+
+.readmore {
+  font-size: 24px;
+  font-weight: bold;
+  float: right;
+}
+
+.readmore a {
+  color: #121212;
+}
+
+article {
+  margin-bottom: 75px;
+}
+
+article img {
+  margin-bottom: 20px;
+}
+
+hr {
+  margin-bottom: 40px;
+}
+
+
+
+/*end left body css*/
+
+/*main right body css*/
+
+
+.right {
+  float: right;
+  width: 240px;
+}
+
+h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.right ul {
+  margin: 20px 0px 20px 0;
+}
+
+.right li {
+  font-size: 24px;
+
+}
+
+.right a {
+  color: black;
+}
+
+.right p {
+  font-size: 22px;
+}
+
+.learnmore {
+  font-size: 22px;
+  font-weight: bold;
+}
+.learnmore a {
+  color: #121212;
+}
+
+.right img {
+  margin-top: 30px;
+}
+
+/*end right body css*/
+
+/*footer css*/
+
+
+footer  {
+  clear: both;
+  text-align: center;
+}
+.buttonsection {
+  background: #f9e42e;
+  height: 100px;
+  color: #033048;
+}
+.buttonsection a {
+  color: white;
+  line-height: 100px;
+  padding: 10px 40px 10px 40px;
+  background: #033048;
+  border-radius: 5px;
+  font-size: 24px;
+  font-weight: bold;
+
+
+}
+
+.copyrightsection {
+  background: #121212;
+  padding: 65px 0 45px;
+  font-size: 24px;
+  color: white;
+}
+
+.bottomlogo {
+  color: #f9e42e;
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 70px;
+
+}
+
+.copyrightsection ul li {
+  display: inline-block;
+  margin: 0 25px 75px;
+}
+h5 {
+  font-size: 20px;
+}
+
+
+
+
+/*end footer css*/
+
+
+
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
